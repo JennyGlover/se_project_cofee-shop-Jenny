@@ -186,12 +186,216 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 0;
 }
-
+.recipes__video-captions-text {
+  margin: 0;
+}
 .reservation {
   background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.reservation__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+.form__fieldset {
+  border: none;
+  margin-left: 0;
+  padding: 0;
+}
+.form__fieldset_type_centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form__label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+input[type="datetime-local"]:invalid::-webkit-datetime-edit {
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  margin-top: 0px;
+  margin-right: 16px;
+}
+
+.form__input {
+  width: 385px;
+  height: 60px;
+  padding: 0;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.form__input::placeholder {
+  padding-left: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+.form__button {
+  width: 385px;
+  height: 60px;
+  padding: 0;
+  border: 1px solid #2f80ed;
+  background-color: #2f80ed;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.form__checkbox {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+.about {
+  background-color: #0a2750;
+  position: relative;
+  overflow: hidden;
+}
+.about__text-container {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.about__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin-left: 80px;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.about__content {
+  max-width: 660px;
+  margin-right: 80px;
+  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 119px;
+  margin-bottom: 173px;
+}
+
+.about__paragraph {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.about__paragraph_margin_none {
+  margin-bottom: 0px;
+}
+
+.about__circle {
+  background-color: #2f80ed;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -29px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #ffffff;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+.footer__logo {
+  width: 116px;
+  height: 21px;
+  align-items: flex-start;
+}
+.footer__social-container {
+  width: fit-content;
+}
+.footer__social-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer__list-item_margin_bottom {
+  margin-bottom: 16px;
+}
+.footer__column-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer__column-link:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  padding-bottom: 60px;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  margin-top: 0;
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
