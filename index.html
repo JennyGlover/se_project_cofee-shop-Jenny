@@ -71,7 +71,7 @@
         </div>
       </header>
       <main class="content">
-        <menu class="menu">
+        <div class="menu">
           <h2 class="menu__title">Menu</h2>
           <p class="menu__subtitle">
             We brew coffee from locally roasted, Fairtrade certified beans and
@@ -159,21 +159,21 @@
               </p>
             </div>
           </div>
-        </menu>
+        </div>
         <div class="recipes">
           <h2 class="recipes__title">Recipes</h2>
           <p class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
           </p>
-          <div class="recipes__iframe">
+          <div class="recipes__iframes">
             <div class="recipes__iframe-container">
               <iframe
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -182,13 +182,13 @@
                 <p class="recipes__video-captions-text">~5 min</p>
               </div>
             </div>
-            <div lass="recipes__iframe-container">
+            <div class="recipes__iframe-container">
               <iframe
+                class="recipes__iframe"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
@@ -224,7 +224,7 @@
                   min="1"
                   max="8"
                   id="guest-number"
-                  value="guestNumber"
+                  value="1"
                   placeholder="1-8"
                   required
                 />

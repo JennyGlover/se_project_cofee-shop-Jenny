@@ -70,7 +70,7 @@
 }
 
 .header__description {
-  font-family: Noto Serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin-left: 80px;
@@ -125,7 +125,7 @@
   max-width: 780px;
   font-size: 20px;
   line-height: 30px;
-  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   padding-top: 24px;
   margin: auto;
 }
@@ -147,7 +147,7 @@
   line-height: 30px;
 }
 .list-item {
-  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .recipes {
@@ -166,20 +166,22 @@
   padding-top: 100px;
 }
 .recipes__subtitle {
-  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 438px;
   margin: 0 0 80px 80px;
 }
-.recipes__iframe {
+.recipes__iframes {
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 80px;
   padding-bottom: 215px;
 }
-
+.recipes__iframe {
+  border: none;
+}
 .recipes__video-captions {
   display: flex;
   justify-content: space-between;
@@ -303,7 +305,7 @@ input[type="datetime-local"]::-webkit-calendar-picker-indicator {
 .about__content {
   max-width: 660px;
   margin-right: 80px;
-  font-family: "Noto Serif", "Times New Roman", Serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin-top: 119px;
