@@ -1,0 +1,15 @@
+.card {
+  max-width: 600px;
+}
+.card__title {
+  margin-bottom: 32px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", serif;
+}
+.card__list-divider {
+  color: white;
+}
