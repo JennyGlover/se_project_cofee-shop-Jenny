@@ -9,6 +9,8 @@
   min-height: 720px;
   height: 100vh;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__title {
@@ -54,7 +56,7 @@
   align-items: flex-end;
   margin-left: 80px;
   margin-right: 80px;
-  margin-top: 166px;
+  margin-top: auto;
   margin-bottom: 40px;
   font-weight: 500;
   color: #6f6f6f;
