@@ -2,8 +2,6 @@
   background-color: #0a2750;
   position: relative;
   overflow: hidden;
-}
-.about__text-container {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
@@ -33,6 +31,11 @@
   margin-top: 0;
   margin-bottom: 20px;
 }
+
+.about__paragraph:last-child {
+  margin-bottom: 0px;
+}
+
 .about__paragraph_margin_none {
   margin-bottom: 0px;
 }
@@ -49,4 +52,17 @@
 
 .about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
