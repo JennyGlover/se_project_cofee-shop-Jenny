@@ -15,3 +15,7 @@ This is the second project of the Software Engineer program at Practicum by Yand
 
 - Make the project responsive at different screensizes
 - Add more pages
+
+## View Live Project
+
+https://jennyglover.github.io/se_project_cofee-shop-Jenny/
