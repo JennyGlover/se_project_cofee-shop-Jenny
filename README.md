@@ -3,11 +3,11 @@
 This project showcases a modern, responsive coffee shop website developed as part of the **Software Engineering program at Tripleten**. Built using **HTML** and **CSS**, the design follows a provided brief and demonstrates clean, efficient front-end development practices.
 
 ---
-![Project screenshot](images/tripletenlibrary1.png);
+![Project screenshot](images/tripletenlibrary1.png)
 
-![Project screenshot](images/tripletenlibrary2.png);
+![Project screenshot](images/tripletenlibrary2.png)
 
-![Project screenshot](images/tripletenlibrary3.png);
+![Project screenshot](images/tripletenlibrary3.png)
 
 ## **Core Features**
 - **Semantic HTML5**: Structured with modern, accessible HTML5 elements.
