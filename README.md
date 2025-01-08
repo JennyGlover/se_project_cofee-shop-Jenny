@@ -27,4 +27,4 @@ This project showcases a modern, responsive coffee shop website developed as par
 
 ## **View the Live Project**
 Explore the live site here:  
-[**Practicum Coffee Shop - Live Site**](https://your-project-link.com)
+[**Practicum Coffee Shop - Live Site**](https://jennyglover.github.io/se_project_cofee-shop-Jenny/)
