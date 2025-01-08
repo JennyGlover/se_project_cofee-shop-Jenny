@@ -1,4 +1,4 @@
-# **Practicum Coffee Shop** ☕️✨
+# **Coffee Shop Landing Page** ☕️✨
 
 This project showcases a modern, responsive coffee shop website developed as part of the **Software Engineering program at Tripleten**. Built using **HTML** and **CSS**, the design follows a provided brief and demonstrates clean, efficient front-end development practices.
 
